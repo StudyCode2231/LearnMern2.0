@@ -42,9 +42,9 @@
 //     console.log(a);
 
 // }
- yolo();
- let b = 100;
- console.log(b);
+//  yolo();
+//  let b = 100;
+//  console.log(b);
 
 for (var i = 1; i <= 10; i++){
     // hint: closures and scope -> wrapping
