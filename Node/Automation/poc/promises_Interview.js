@@ -30,3 +30,5 @@ f1readPromise
     .catch(function (err) {
         console.log(err)
     });
+
+//q2: 
