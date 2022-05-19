@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 body {
@@ -56,6 +57,7 @@ body {
 
 .action-btn-cont>*{
   font-size: 2rem;
+  font-family: 'JetBrains Mono', monospace;
   color: #d1d8e0;
   display: flex;
   justify-content: center;
@@ -83,6 +85,7 @@ textarea{
   width:75%;
   background-color:#dfe4ea ;
   font-size:2rem;
+  font-family: 'JetBrains Mono', monospace;
   border:none;
   outline:none;
   resize: none;
