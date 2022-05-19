@@ -196,4 +196,7 @@ function handleColor(ticket, id) {
 function handleLock(ticket, id) {
     //icons ko append in ticket
     //toggle of icons and contenteditable property
+    let ticketLockEle=ticket.querySelector(".ticket-lock");
+    let ticketLock=ticketLockEle.children[0];
+    let ticketTaskArea=ticket
 }
