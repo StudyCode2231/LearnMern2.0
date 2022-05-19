@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
     <title>Todo App</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -34,19 +33,27 @@
 
     <!-- Todo Box Space-->
     <div class="main-cont">
-
+<!-- inside this container all my tickets will be attached  -->
     </div>
 
     <!-- Modal Container -->
     <div class="modal-cont">
-        <textarea placeholder="Enter Your Task"></textarea>
+        <textarea class="textarea-cont"placeholder="Enter Your Task"></textarea>
         <div class="priority-color-cont">
-            <div class="lightpink priority-color"></div>
-            <div class="lightgreen priority-color"></div>
-            <div class="lightblue priority-color"></div>
-            <div class="black priority-color active"></div>
+            <div class="lightpink priority-color "></div>
+            <div class="lightgreen priority-color "></div>
+            <div class="lightblue priority-color "></div>
+            <div class="black priority-color "></div>
         </div>
     </div>
+
+    <!-- ticket container --> 
+    <!-- <div class="ticket-cont">
+        <div class="ticket-color"></div>
+        <div class="ticket-id"></div>
+        <div class="task-area"></div>
+    </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
