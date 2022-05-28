@@ -22,3 +22,4 @@ console.log(l);
 //getKey by index
 let d = localStorage.key(1);
 console.log(d);
+// !!!!!!!!!!!!!!!!!!!!!!!
