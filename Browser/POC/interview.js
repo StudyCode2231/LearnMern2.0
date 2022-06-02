@@ -113,37 +113,48 @@ type1();  //globally , this -> window ,
 
 //2
 
-function type2() {
-  console.log(this.lname);
-}
+// function type2() {
+//   console.log(this.lname);
+// }
 
-var lname = "Kumar";
+// var lname = "Kumar";
 
-var obj = {
-  lname: "Verma",
-  type2
-}
+// var obj = {
+//   lname: "Verma",
+//   type2
+// }
 
-obj.type2();//in execution context of function, 'this' gives reference to the obj
+// obj.type2();//in execution context of function, 'this' gives reference to the obj
 
 
-//3
+// //3
 
-var food = "Pizaa";
+// var food = "Pizaa";
 
-var obj = {
-  food: "Pasta",
-  eat() {
-    console.log("i am eating " + this.food);
+// var obj = {
+//   food: "Pasta",
+//   eat() {
+//     console.log("i am eating " + this.food);
+//   }
+// }
+
+// var foo = obj.eat;
+
+// foo();
+
+
+var length=1;
+function square(){
+  let cb=function(){
+    console.log(this.length*this.length);
   }
+  setTimeout(cb,2000);
 }
-
-var foo = obj.eat;
-
-foo();
-
-
-
+var obj={
+  length:3,
+  square
+}
+obj.square();
 
 
 // 'use strict'
