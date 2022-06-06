@@ -10,12 +10,13 @@
 // type2()
 
 //3
-var food="Piza"
-var obj={
-    food:'Pasta',
-    eat(){
-        console.log("i am eating "+this.food )
-    }
-}
-var fo=obj.eat;
-fo();
+// var food="Piza"
+// var obj={
+//     food:'Pasta',
+//     eat(){
+//         console.log("i am eating "+this.food )
+//     }
+// }
+// var fo=obj.eat;
+// fo();
+
