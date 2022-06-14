@@ -134,15 +134,15 @@ function stopTimer() {
 
 //filters add 
 
-let filterLayer = document.querySelector(".filter-layer");
-let allFilters = document.querySelectorAll(".filter");
+// let filterLayer = document.querySelector(".filter-layer");
+// let allFilters = document.querySelectorAll(".filter");
 
-allFilters.forEach((filterElem) => {
-    filterElem.addEventListener('click', () => {
-        transparentColor = getComputedStyle(filterElem).getPropertyValue('background-color');
-        filterLayer.style.backgroundColor = transparentColor;
-    })
-})
+// allFilters.forEach((filterElem) => {
+//     filterElem.addEventListener('click', () => {
+//         transparentColor = getComputedStyle(filterElem).getPropertyValue('background-color');
+//         filterLayer.style.backgroundColor = transparentColor;
+//     })
+// })
 
 
 
