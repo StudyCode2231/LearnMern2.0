@@ -48,8 +48,8 @@ export default class Todo extends Component {
                 {/* <button>Delete</button>
               </li>
             );
-          })
-        } */}
+          }) */}
+        }
       </div>
     );
   }
