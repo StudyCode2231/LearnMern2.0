@@ -45,11 +45,11 @@ export default class Todo extends Component {
             return (
               <li key={taskObj.id}>
                 <p>{taskObj.task}</p>
-                <button>Delete</button>
+                {/* <button>Delete</button>
               </li>
             );
           })
-        }
+        } */}
       </div>
     );
   }
