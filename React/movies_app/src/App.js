@@ -1,14 +1,14 @@
 
 import './App.css';
-import Banner from './Components/Banner';
 import Navbar from './Components/Navbar';
-
+import Banner from './Components/Banner';
+import List from './Components/List';
 function App() {
   return (
     <>
-        <Navbar/>
-          
-        <Banner/>
+      <Navbar />
+      <Banner />
+      <List/>
     </>
   );
 }
