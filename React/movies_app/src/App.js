@@ -1,4 +1,5 @@
-
+import react , { Component}  from 'react';
+import         { render   }  from 'react-dom';
 import './App.css';
 import Navbar from './Components/Navbar';
 import Banner from './Components/Banner';
