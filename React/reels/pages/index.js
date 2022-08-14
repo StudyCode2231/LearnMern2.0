@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+
 
 export default function Home() {
   return (
@@ -12,8 +14,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}/>
-        <h1>Welcome to Pepcoding <img src='https://upload.wikimedia.org/wikipedia/commons/d/d3/PSLV_%28DYK%29.png'></img></h1>
+        <h1 className={styles.title}>
+        Welcome To Pepcoding !!!
+        </h1>
 
       </main>
 

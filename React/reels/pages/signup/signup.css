@@ -1,0 +1,14 @@
+.signup-container{
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    text-align: center;
+}
+.signup-card{
+    width: 25rem;
+    height: 25rem;
+    border:1px solid black;
+    padding: 1rem;
+}
