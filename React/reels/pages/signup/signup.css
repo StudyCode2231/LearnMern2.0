@@ -9,6 +9,6 @@
 .signup-card{
     width: 25rem;
     height: 25rem;
-    border:1px solid black;
+    border:1px solid #ccc;
     padding: 1rem;
 }
