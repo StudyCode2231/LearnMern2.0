@@ -5,10 +5,24 @@
     align-items: center;
     margin: 2rem;
     text-align: center;
+    flex-direction: column;
 }
 .signup-card{
     width: 25rem;
     height: 25rem;
     border:1px solid #ccc;
     padding: 1rem;
+}
+.bottom-card{
+    width: 25rem;
+    border:1px solid #ccc;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.tnc{
+    width:25rem;
+    padding:1rem; 
+    /* margin-top:0.02rem; */
+    color:grey;
+    text-align: center;
 }
